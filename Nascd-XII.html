@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>class4</title>
+    <style>
+        .grid-contianer{
+            width: 90%;
+            display: grid;
+            grid-template-columns: 15% 85%;
+            grid-gap: 10px;
+            margin-left: 30px;
+            margin-top: 20px;
+            /* align-items: center; */
+        }
+        table,th,tr,td{
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        #table2{
+            grid-column: 1/-1;
+            text-align: center;
+        }
+        #table3{
+            grid-column: 1/-1;
+            text-align: center;
+        }
+        .txt-center{
+            text-align: center;
+        }
+        img{
+            width: 55px;
+            margin-left: 10px;
+            margin-top: 20px;
+        }
+        .grid-item-2{
+            /* text-align: center; */
+            margin: 10px;
+        }
+        .sig-section{
+            width: 90%;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-gap: 10px;
+            margin-left: 10px;
+            text-align: center;
+        }
+        .grade{
+            width: 50%;
+            margin-left: 30px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="grid-contianer">
+        <div>
+            <!-- <img src={#asset nascd.jpg @encoding=dataURI}> -->
+            <img src="./nascd.jpg">
+        </div>
+        <div class="grid-item-2">
+            <h3>NAVY ANCHORAGE SCHOOL AND COLLEGE DHAKA</h3>
+            <!-- <h3>Navy Anchorage School And College Dhaka</h3> -->
+            <!-- <h4 class="txt-center">Pre Test Exam : 2024 </h4> -->
+            <!-- <h4 class="txt-center">Class : XII</h4> -->
+            <h4 style="margin-left: 30%">Pre Test Exam : 2024 </h4>
+            <h4 style="margin-left: 30%">Class : XII</h4>
+        </div>
+            
+        
+            <table id="table2">
+                <tr>
+                    <td >Student's Name : </td>
+                    <td>Roll : </td>
+                    <td>Section : </td>
+                    <td>Group : </td>
+                </tr>
+
+            </table>
+            <br>
+            <table id="table3">
+                <tr>
+                    <th colspan="5">Subject Wise Grade Sheet</th>
+                </tr>
+                <tr>
+                    <th>Subject</th>
+                    <th>CQ</th>
+                    <th>MCQ</th>
+                    <th>Letter Grade</th>
+                    <th>Grade Point</th>
+                </tr>
+                <tr>
+                    <td  style="text-align: left;">Bangla</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>English</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Chemistry</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Higher Mathematics</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Physics</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>ICT</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th colspan="6">Optional Subject</th>
+                </tr>
+                <tr>
+                    <td>Biology</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Result</td>
+                    <td colspan="5"></td>
+                </tr>
+                
+            </table>
+            <br>
+         
+       
+    </div>
+     <br><br></br>
+    <div class="sig-section">
+        <div>......................................</div>
+        <div>......................................</div>
+    </div>
+    <div class="sig-section">
+        <div>Class Teacher</div>
+        <div>Exam Coordinator</div>
+    </div>
+
+    <br><br></br>
+
+    <table class="grade">
+        <thead>
+            <tr>
+                <th colspan="3">Grading Levels</th>
+            </tr>
+            <tr>
+                <th>Letter Grade</th>
+                <th>Marks</th>
+                <th>Grade Point</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>A+</td>
+                <td>80.0-100.0</td>
+                <td>5.0</td>
+            </tr>
+            <tr>
+                <td>A</td>
+                <td>70.0-79.0</td>
+                <td>4.0</td>
+            </tr>
+            <tr>
+                <td>A-</td>
+                <td>60.0-69.0</td>
+                <td>3.5</td>
+            </tr>
+            <tr>
+                <td>B</td>
+                <td>50.0-59.0</td>
+                <td>3.0</td>
+            </tr>
+            <tr>
+                <td>F</td>
+                <td>0.0-49.0</td>
+                <td>0.0</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>
