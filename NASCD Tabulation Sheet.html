@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>class-1,2,3</title>
+</head>
+<style>
+    .grid-contianer{
+            width: 94%;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-gap: 10px;
+            margin-left: 20px;
+            /* align-items: center; */
+        }
+        .header{
+            grid-column: 2;
+        }
+        table,th,tr,td{
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        #table1{
+            grid-column: 1/-1;
+        }
+        h2,h4{
+            text-align: center;
+        }
+        img{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50px;
+        }
+        tbody{
+            text-align: center;
+        }
+        .year{
+            grid-column: 1;
+        }
+        .sec{
+            grid-column: 3;
+            text-align: end;
+        }
+</style>
+<body>
+    <div class="grid-contianer">
+        <div class="header">
+            <img src="./nasc.jpg">
+            <h2>Navy Anchorage School and College Dhaka</h3>
+            <h4>Tabulation Sheet, Yearly Exam - 2023</h4>
+        </div>
+        <div class="year">
+            <h5>Year: November-2023</h5>
+        </div>
+        <div class="sec">
+            <h5>Class:Morning, I PADMA</h5>
+        </div>
+        <table id="table1">
+            <thead>
+                <tr>
+                    <th rowspan="3">ROll</th>
+                    <th rowspan="3">Students Name</th>
+                    <th colspan="2">Bang</th>
+                    <th colspan="2">Eng Lit</th>
+                    <th colspan="2">Eng Lang</th>
+                    <th colspan="2">Math</th>
+                    <th colspan="2">Sci</th>
+                    <th colspan="2">Islam</th>
+                    <th colspan="2">Drawing</th>
+                    <th rowspan="3">Total</th>
+                </tr>
+                <tr>
+                    <th>Con. CW</th>
+                    <hr>
+                    <th>Term</th>
+                    <th>Con. CW</th>
+                    <th>Term</th>
+                    <th>Con. CW</th>
+                    <th>Term</th>
+                    <th>Con. CW</th>
+                    <th>Term</th>
+                    <th>Con. CW</th>
+                    <th>Term</th>
+                    <th>Con. CW</th>
+                    <th>Term</th>
+                    <th>Con. CW</th>
+                    <th>Term</th>
+                </tr>
+                <tr>
+                    <th>CT</th>
+                    <th>TTL</th>
+                    <th>CT</th>
+                    <th>TTL</th>
+                    <th>CT</th>
+                    <th>TTL</th>
+                    <th>CT</th>
+                    <th>TTL</th>
+                    <th>CT</th>
+                    <th>TTL</th>
+                    <th>CT</th>
+                    <th>TTL</th>
+                    <th>CT</th>
+                    <th>TTL</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td rowspan="2">1</td>
+                    <td rowspan="2">Alisha Tazmeen</td>
+                    <td>5</td>
+                    <td>74</td>
+                    <td>5</td>
+                    <td>75</td>
+                    <td>5</td>
+                    <td>75</td>
+                    <td>5</td>
+                    <td>72</td>
+                    <td>5</td>
+                    <td>74</td>
+                    <td>5</td>
+                    <td>25</td>
+                    <td>-</td>
+                    <td>34</td>
+                    <td rowspan="2">525</td>
+                </tr>
+                <tr>
+                    <td>20</td>
+                    <td>99</td>
+                    <td>20</td>
+                    <td>100</td>
+                    <td>20</td>
+                    <td>100</td>
+                    <td>20</td>
+                    <td>97</td>
+                    <td>20</td>
+                    <td>99</td>
+                    <td>20</td>
+                    <td>50</td>
+                    <td>9</td>
+                    <td>43</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">2</td>
+                    <td rowspan="2">Alisha Tazmeen</td>
+                    <td>5</td>
+                    <td>74</td>
+                    <td>5</td>
+                    <td>75</td>
+                    <td>5</td>
+                    <td>75</td>
+                    <td>5</td>
+                    <td>72</td>
+                    <td>5</td>
+                    <td>74</td>
+                    <td>5</td>
+                    <td>25</td>
+                    <td>-</td>
+                    <td>34</td>
+                    <td rowspan="2">525</td>
+                </tr>
+                <tr>
+                    <td>20</td>
+                    <td>99</td>
+                    <td>20</td>
+                    <td>100</td>
+                    <td>20</td>
+                    <td>100</td>
+                    <td>20</td>
+                    <td>97</td>
+                    <td>20</td>
+                    <td>99</td>
+                    <td>20</td>
+                    <td>50</td>
+                    <td>9</td>
+                    <td>43</td>
+                </tr>
+            </tbody>
+           
+
+        </table>
+    </div>
+        
+        
+
+</body>
+</html>

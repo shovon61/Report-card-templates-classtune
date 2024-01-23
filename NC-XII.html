@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class 12</title>
+    <style>
+        img {
+            width: 75px;
+        }
+
+        .grid {
+            display: grid;
+            width: 80%;
+            margin-left: 20px;
+            margin-top: 30px;
+        }
+
+        .element-center {
+            display: block;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            height: auto;
+        }
+
+        table,
+        th,
+        tr,
+        td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: 58% 39%;
+            grid-gap: 3%;
+            font-size: 11px;
+        }
+
+        .txt-align-right {
+            text-align: right;
+        }
+
+        .txt-align-left {
+            text-align: left;
+        }
+
+        .back-color {
+            background-color: rgb(177, 184, 184);
+        }
+
+        .table3 {
+            text-align: center;
+            width: 100%;
+        }
+        .table4 {
+            text-align: center;
+            width: 100%;
+        }
+        .table5 {
+            width: 100%;
+            text-align: left;
+            height: 90px;
+        }
+        .sig-section {
+            width: 90%;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-gap: 10px;
+            margin-left: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="grid">
+        <div class="element-center">
+            <h3>Noubahini College, Dhaka</h3>
+            <h4>Mid Term Exam - 2024</h4>
+            <img src="./Noubahini-College-logo.jpeg" alt="Noubahini-College-logo">
+            <h3>ACADEMIC TRANSCRIPT</h3>
+        </div>
+        <div class="grid-container">
+
+            <table>
+                <tr>
+                    <th class="txt-align-right">Student ID</th>
+                    <td colspan="3">{222022}</td>
+                </tr>
+                <tr>
+                    <th class="txt-align-right">Name</th>
+                    <td colspan="3">{ARNAB CHANDRA SHILL}</td>
+                </tr>
+                <tr>
+                    <th class="txt-align-right">Roll</th>
+                    <td colspan="3">{-}</td>
+                </tr>
+                <tr>
+                    <th class="txt-align-right">Class/Program</th>
+                    <td colspan="3">{XI}</td>
+                </tr>
+                <tr>
+                    <th class="txt-align-right">Section</th>
+                    <td>{Atlas}</td>
+                    <th class="txt-align-right">Shift</th>
+                    <td>{College}</td>
+                </tr>
+                <tr>
+                    <th class="txt-align-right">Group</th>
+                    <td>{Business}</td>
+                    <th class="txt-align-right">Category</th>
+                    <td>{Outsider}</td>
+                </tr>
+
+            </table>
+
+            <table>
+                <tr class="back-color">
+                    <th>Letter Grade</th>
+                    <th>Marks</th>
+                    <th>Grade Point</th>
+                </tr>
+                <tr>
+                    <th>A+</th>
+                    <th>80.0-100.0</th>
+                    <th>5.0</th>
+                </tr>
+                <tr>
+                    <th>A</th>
+                    <th>71.0-79.0</th>
+                    <th>4.0</th>
+                </tr>
+                <tr>
+                    <th>A-</th>
+                    <th>61.0-70.0</th>
+                    <th>3.5</th>
+                </tr>
+                <tr>
+                    <th>B</th>
+                    <th>51.0-60.0</th>
+                    <th>3.0</th>
+                </tr>
+                <tr>
+                    <th>C</th>
+                    <th>41.0-50.0</th>
+                    <th>2.0</th>
+                </tr>
+                <tr>
+                    <th>D</th>
+                    <th>33.0-40.0</th>
+                    <th>1.0</th>
+                </tr>
+                <tr>
+                    <th>F</th>
+                    <th>0.0-32.0</th>
+                    <th>0.0</th>
+                </tr>
+            </table>
+        </div> 
+
+        <br>
+
+        <div>
+            <table class="table3">
+
+                <tr class="back-color">
+                    <th rowspan="2" class="txt-align-left">SUBJECTS</th>
+                    <th colspan="2">Quiz Test</th>
+                    <th colspan="2">Mid Term</th>
+                    <th rowspan="2">Att.</th>
+                    <th rowspan="2">Total(100)</th>
+                    <th rowspan="2">Letter Grade</th>
+                    <th rowspan="2">Grade Point</th>
+                </tr>
+                <tr class="back-color">
+                    <th>CQ</th>
+                    <th>MCQ</th>
+                    <th>CQ</th>
+                    <th>MCQ</th>
+                </tr>
+
+                <tr>
+                    <th class="txt-align-left">{ Bangla }</th>
+                    <td>{ 10 }</td>
+                    <td>{ 8 }</td>
+                    <td>{ 32 }</td>
+                    <td>{ 24 }</td>
+                    <td>{ 5 }</td>
+                    <td>{ 58 }</td>
+                    <td>{ B }</td>
+                    <td>{ 3.0 }</td>
+                </tr>
+                <tr>
+                    <th class="txt-align-left">{ Accounting }</th>
+                    <td>{ 10 }</td>
+                    <td>{ 8 }</td>
+                    <td>{ 32 }</td>
+                    <td>{ 24 }</td>
+                    <td>{ 5 }</td>
+                    <td>{ 58 }</td>
+                    <td>{ B }</td>
+                    <td>{ 3.0 }</td>
+                </tr>
+                <tr>
+                    <th class="txt-align-left">{ Management }</th>
+                    <td>{ 10 }</td>
+                    <td>{ 8 }</td>
+                    <td>{ 32 }</td>
+                    <td>{ 24 }</td>
+                    <td>{ 5 }</td>
+                    <td>{ 58 }</td>
+                    <td>{ B }</td>
+                    <td>{ 3.0 }</td>
+                </tr>
+                <tr>
+                    <th class="txt-align-left">{ Finance }</th>
+                    <td>{ 10 }</td>
+                    <td>{ 8 }</td>
+                    <td>{ 32 }</td>
+                    <td>{ 24 }</td>
+                    <td>{ 5 }</td>
+                    <td>{ 58 }</td>
+                    <td>{ B }</td>
+                    <td>{ 3.0 }</td>
+                </tr>
+                <tr>
+                    <th class="txt-align-left">{ ICT }</th>
+                    <td>{ 10 }</td>
+                    <td>{ 8 }</td>
+                    <td>{ 32 }</td>
+                    <td>{ 24 }</td>
+                    <td>{ 5 }</td>
+                    <td>{ 58 }</td>
+                    <td>{ B }</td>
+                    <td>{ 3.0 }</td>
+                </tr>
+                <tr>
+                    <th class="txt-align-left">{ English }</th>
+                    <td>{ 10 }</td>
+                    <td>{ 8 }</td>
+                    <td>{ 32 }</td>
+                    <td>{ 24 }</td>
+                    <td>{ 5 }</td>
+                    <td>{ 58 }</td>
+                    <td>{ B }</td>
+                    <td>{ 3.0 }</td>
+                </tr>
+                <tr>
+                    <th class="txt-align-left">{ Geography(4th) }</th>
+                    <td>{ 10 }</td>
+                    <td>{ 8 }</td>
+                    <td>{ 32 }</td>
+                    <td>{ 24 }</td>
+                    <td>{ 5 }</td>
+                    <td>{ 58 }</td>
+                    <td>{ B }</td>
+                    <td>{ 3.0 }</td>
+                </tr>
+                <tr>
+                    <th colspan="5" class="txt-align-right"><b>Grand Total</b></th>
+                    <td>{ 357 }</td>
+                    <td>{ C } </td>
+                    <td>{ 2.43 }</td>
+                </tr>
+            </table>
+        </div>
+
+        <br>
+
+        <div>
+            <table  class="table4">
+                <tr>
+                    <th colspan="2">Position In Merit List</th>
+                </tr>
+                <tr>
+                    <th class="txt-align-left">Section</th>
+                    <th class="txt-align-left">{ 1 } out of 124</th>
+                </tr>
+                <tr>
+                    <th class="txt-align-left">Group</th>
+                    <th class="txt-align-left">{ 10 } out of 352</th>
+                </tr>
+                <tr>
+                    <th colspan="2" class="txt-align-left">Result : { Passed }</th>
+                </tr>
+            </table>
+        </div>
+
+        <br>
+
+        <div>
+            <table class="table5">
+                <tr>
+                    <th>Remarks : </th>
+                </tr>
+            </table>
+        </div>
+
+        <br><br><br><br>
+
+        <div class="sig-section">
+            <div>......................................................</div>
+            <div>................................................</div>
+            <div>.............................................</div>
+        </div>
+        <div class="sig-section">
+            <div><b>Guide Teacher's (Sign & Date)</b></div>
+            <div><b>Guardian's (Sign & Date)</b></div>
+            <div><b>VP (Edu) (Sign & Date)</b></div>
+        </div>
+
+        <br><br><br><br>
+
+        <div class="element-center">
+            <div>..............................................</div>
+        </div>
+        <div class="element-center">
+            <div><b>Principal's Sign & Date</b></div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
